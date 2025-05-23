@@ -12,7 +12,7 @@
 
 ## 在线预览
 
-访问 [赛博木鱼](https://[你的GitHub用户名].github.io/muyu/) 体验完整功能。
+访问 [赛博木鱼](https://yuanchaoo.github.io/muyu/) 体验完整功能。
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
