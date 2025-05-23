@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;
+    color: #FFFFFF;
+    font-family: 'PingFang SC', 'Kaiti SC', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    padding: 2rem 0;
+}
+
+.title-section {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.main-title {
+    font-family: 'Kaiti SC', sans-serif;
+    font-size: 25vw;
+    background: linear-gradient(180deg, rgba(255, 176, 103, 0.05) 0%, rgba(115, 55, 0, 0.02) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 1rem;
+}
+
+.score-container {
+    text-align: center;
+}
+
+#score {
+    font-family: 'PingFang SC', sans-serif;
+    font-size: 10vh;
+    font-weight: 900;
+}
+
+.score-label {
+    font-family: 'PingFang SC', sans-serif;
+    font-size: 5vh;
+}
+
+.woodfish-section {
+    position: relative;
+    margin: 2rem 0;
+}
+
+.woodfish-container {
+    position: relative;
+    display: inline-block;
+}
+
+.woodfish {
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+
+.hammer {
+    position: absolute;
+    top: -20px;
+    right: -40px;
+    width: 60px;
+    height: auto;
+    transform-origin: bottom right;
+    transition: transform 0.1s ease;
+}
+
+.floating-text {
+    position: absolute;
+    font-family: 'PingFang SC', sans-serif;
+    font-size: 1.5em;
+    color: #FFFFFF;
+    pointer-events: none;
+    animation: float-up 0.4s ease-out forwards;
+}
+
+@keyframes float-up {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+}
+
+.footer-text {
+    font-family: 'Kaiti SC', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 2rem;
+} 

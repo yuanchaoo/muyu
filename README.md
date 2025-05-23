@@ -1,3 +1,19 @@
+# 赛博木鱼
+
+一个有趣的赛博木鱼网页应用，点击木鱼可以积累功德。
+
+## 功能特点
+
+- 精美的渐变标题
+- 动态的敲击动画
+- 功德计数器
+- 漂浮文字效果
+- 敲击音效
+
+## 在线预览
+
+访问 [赛博木鱼](https://[你的GitHub用户名].github.io/muyu/) 体验完整功能。
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
